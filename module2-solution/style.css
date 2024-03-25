@@ -35,6 +35,12 @@ body{
     padding-left: 10px;
     padding-right: 10px;
 }
+.content1 h1{
+    float: right;
+}
+.content1 p{
+    margin-top: 20%;
+}
 .content2{
     background-color: beige;
     font-family: 'Roboto+Slab', sans-serif;
@@ -50,6 +56,13 @@ body{
     padding-left: 10px;
     padding-right: 10px;
 }
+.content2 h1{
+    float: right;
+    margin-bottom: 2%;
+}
+.content2 p{
+    margin-top: 20%;
+}
 .content3{
     background-color: bisque;
     font-family: 'Roboto+Slab', sans-serif;
@@ -64,6 +77,13 @@ body{
     padding-bottom: 20px;
     padding-left: 10px;
     padding-right: 10px;
+}
+.content3 h1{
+    float: right;
+    margin-bottom: 2%;
+}
+.content3 p{
+    margin-top: 20%;
 }
 @media screen and (min-width:768px) and (max-width:992px)
 {

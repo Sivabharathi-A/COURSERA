@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+body{
+    background-color: white;
+    margin: auto;
+    padding: auto;
+}
+#head{
+    background-color: antiquewhite;
+}
+#head h1{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+}
+#content{
+    background-color: white;
+    align-content: center;
+    display: inline;
+    padding: 15px 5px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.content1{
+    width: 30%;
+    background-color: blanchedalmond;
+    height: 300px;
+    float: left;
+    margin-top: 50px;
+    margin-right: 2%;
+    margin-bottom: 50px;
+    margin-left: 1%;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.content2{
+    background-color: beige;
+    font-family: 'Roboto+Slab', sans-serif;
+    float: left;
+    margin-top: 50px;
+    margin-left: 0%;
+    margin-bottom: 50px;
+    margin-right: 0%;
+    height: 300px;
+    width: 30%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.content3{
+    background-color: bisque;
+    font-family: 'Roboto+Slab', sans-serif;
+    float: right;
+    margin-top: 50px;
+    margin-left: 0%;
+    margin-bottom: 50px;
+    margin-right: 1%;
+    height: 300px;
+    width: 30%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+@media screen and (min-width:768px) and (max-width:992px)
+{
+ .content1{
+    width: 45%;
+ }  
+ .content2{
+    width: 45%;
+ }  
+ .content3{
+    width: 95%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-right: 20px;
+    height: 150px;
+ }  
+}
+@media screen and (max-width:768px)
+{
+    .content1{
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 20%;
+     }  
+     .content2{
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 20%;
+     }  
+     .content3{
+        width: 70%;
+        margin-left: 20%;
+        margin-right: 10%;
+     }  
+}
